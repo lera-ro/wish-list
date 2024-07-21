@@ -1,0 +1,64 @@
+body {
+  background-image: url("lights.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+} 
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.App{
+  background-color: transparent;
+  background-color: rgba(213, 201, 218, 0.6); 
+  min-height: 80vh;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 20%;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 70%;
+}
+
+.crossed {
+  text-decoration: line-through 2px green;
+}
+
+img {
+  border-radius: 50%; 
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add {
+  background: #e2a658;
+  margin-top: 5px;
+}
+
+.delete {
+  background: #8f5455;
+  margin-bottom: 5px;
+}
+
+.btn {
+padding: 5px;
+border: none;
+width: 50%;
+color: white;
+font-size: 16px;
+border-radius: 5px;
+font-family: 'Montserrat', sans-serif;
+}
